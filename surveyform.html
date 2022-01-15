@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default starter</title>
+    <!-- font roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta3-web/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--    link to css   -->
+    <link rel="stylesheet" href="./surveyform.css">
+    <!--  link to normalise css -->
+    <!-- <link rel="stylesheet" href="./normalise.css"> -->
+</head>
+
+<body>
+
+
+    <!-- ===== Form type 2 ===== -->
+    <nav class="navbar-1">
+        <div class="logo"><i class="fas fa-cubes"></i></div>
+        <div class="title">
+            <h5>Good Vibes Form</h5>
+            <h6>Laurence</h6>
+        </div>
+        <div class="btn nav-btn">
+            <a href="#">
+                <i class="fas fa-heart"></i>
+            </a>
+        </div>
+        <div class="btn nav-btn">
+            <a href="#">
+                View in Editor
+            </a>
+        </div>
+        <div class="btn btn-green">
+            <a href="#">
+                Sign Up
+            </a>
+        </div>
+        <div class="btn nav-btn">
+            <a href="#">
+                Log In
+            </a>
+        </div>
+
+    </nav>
+
+    <!-- ===== navbar end ===== -->
+    <section class="page">
+        <nav class="navbar">
+            <a href="#" class="menu"> <i class="fas fa-bars"></i></a>
+        </nav>
+        <h1>Good Vibes Form</h1>
+        
+
+
+
+
+
+        <!-- ======== form-vibes ========== -->
+        <form action="" method=" " class="form-vibes">
+            <h5>Tell us something positive that happened to you today</h5>
+            <!--  name -->
+<div class="form-filled">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="name" placeholder="Enter your name"></div>
+            <br>
+            
+
+
+
+            <!-- email -->
+            <div class="form-filled">
+
+            <label for="email">Email</label>
+            <input type="email" id=email class="email" name="email" placeholder="Enter your email address">
+
+            
+        </div><br>
+
+            <!-- number -->
+            <div class="form-filled">
+
+            <label for="number">On a scale of 1-10, how good was it?</label>
+            <input type="number" id="number" class="number" name="number"
+                placeholder="Enter a number between 1 and 10">
+            </div><br>
+
+            <!--  option -->
+            <div class="form-filled">
+
+            <label for="location">Where did it happen?</label>
+            <select name="location" id="location" class="location">
+                <option value="Home">At home</option>
+                <option value="commute">On my commute</option>
+                <option value="work">At work</option>
+                <option value="other">other</option>
+            </select>
+        </div><br>
+
+
+
+            <!-- radio  -->
+
+            <label for="time">At what time of day did it happen?</label>
+            <br>
+            <input type="radio" name="time" id="time" value="morning">Morning
+            <br>
+
+
+            <input type="radio" name="time" id="time" value="afternoon">Afternoon
+            <br>
+            <input type="radio" name="time" id="time" value="evening">Evening
+            <br><br>
+
+
+
+            <!--checkbox  -->
+            <label for="emotion">What emotions did you experience?
+                <br>(Select all that apply)</label>
+            <br>
+
+            <input type="checkbox" name="emotion" class="emotion" id="emotion" value="Excited">Excited
+            <br>
+            <input type="checkbox" name="emotion" class="emotion" id="emotion" value="Humbled">Humbled
+            <br>
+            <input type="checkbox" name="emotion" class="emotion" id="emotion" value="Elated">Elated
+            <br>
+            <input type="checkbox" name="emotion" class="emotion" id="emotion" value="Loved">Loved
+            <br>
+
+            <input type="checkbox" name="emotion" class="emotion" id="emotion" value="Enthusiastic">Enthusiastic
+            <br>
+            <br> <br>
+
+
+
+
+
+
+
+
+
+
+            <!-- Text area -->
+
+
+            <label for="text-area">Please describe your positive experience.</label>
+
+            <textarea name="text-area" id="text-area" class="text-area" placeholder="Enter your Experience here"
+                rows="6"></textarea>
+            <button type="submit" class="btn ">Submit </button>
+
+        </form>
+    </section>
+</body>
+
+</html>

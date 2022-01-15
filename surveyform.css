@@ -204,10 +204,10 @@ ul {
 }
 /* ----main page---- */
 .page {
-  padding: 1rem 2rem;
-  width: 85vw;
-  max-width: 27rem;
-  margin: 2rem auto;
+  padding:2rem;
+  width: 80vw;
+  max-width: 35rem;
+  margin: 5rem auto;
   background-color: var(--grey-clr-2);
 }
 
@@ -245,6 +245,25 @@ select {
 }
 .text-area{
   width: 100%;
+}
+.menu{
+  animation: shine 1s infinite;
+  position: fixed;
+  top: 5rem;
+  left: 1rem;
+}
+@keyframes shine{
+  
+  50%{
+    color:var(--primary-clr-5);
+    transform: scale(2);
+  
+    
+  }
+
+    
+  
+  
 }
 
 
